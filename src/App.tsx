@@ -1,11 +1,10 @@
-import React from 'react'
-import logo from './logo.svg'
-import './App.css'
+import './App.scss'
 
 function App() {
   return (
     <div className="page">
-      <div className="title">Feather boy</div>
+      <h2>25°</h2>
+      <h3>Weather is pretty good son!</h3>
     </div>
   )
 }

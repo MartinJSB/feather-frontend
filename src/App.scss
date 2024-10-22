@@ -1,11 +1,12 @@
-@use 'styles/_colors.scss';
-@use '~nprogress/nprogress'; 
+$page-height: 100vh;
+$page-width: 100vw;
 
 .page {
-  height: 100vh;
-  width: 100vw;
+  height: $page-height;
+  width: $page-width;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
